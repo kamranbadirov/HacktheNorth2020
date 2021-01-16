@@ -2,7 +2,7 @@
 
 This is Gregor, built for Hack the North 2020++
 
-![Gregor logo](https://github.com/kamrandb/HacktheNorth2020/blob/main/gregorlogowhite.png =500x)
+![Gregor logo](https://github.com/kamrandb/HacktheNorth2020/blob/main/gregorlogowhite.png)
 
 ## Inspiration
 When COVID hit, all events were moved online. Many have turned to announcing events on social media platforms, where information about the date, time, and location of the event are contained in visually appealing infographics. However, this isn't very user friendly - presenting the event as an image requires the user to manually enter the information in their calendar app. This creates a barrier of entry, since by the time the user has finished scrolling through social media and has time to upload an event in their calendar, they may have forgotten key elements, and don't want to go through the trouble of finding the post all over again. This decreases attendance of an event.
