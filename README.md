@@ -19,7 +19,8 @@ Gregor requires input of an image (a poster or infographic) and timezone (of the
 Gregor's backend comprises two main parts: a machine learning algorithm that uses Microsoft's Azure API to recognize and interpret text corresponding to calendar events, and a integrated framework that uses the data found in the image to create a new event in your calendar using the Google Calendar API.
 
 ## Challenges we ran into
-TO UPDATE SOON
+- We had difficulty figuring out how to have the user locally upload an image into Azure so that we could analyze it with our algorithm. This was solved by putting our heads together as a team, and asking for help - we spoke with multiple Microsoft representatives, who helped significantly to finding a suitable workaround.
+- Integrating the Framer UI design with the front end proved to be more difficult than we anticipated. Although we originally planned on using React and importing Framer designs directly, we ended up using Framer only as a prototyping tool and as inspiration for the website. Final coding was done in HTML/CSS/JS using graphic softwares to create artwork and tools from Bootstrap.
 
 ## What's next for Gregor
 - Integrating with a browser extension so that Gregor can create calendar invites directly from your social media app.
@@ -35,8 +36,9 @@ Backend:
 
 Frontend:
 - Framer UI design
-- React
+- HTML/CSS/JS
+- Boostrap and JQuery 
 - Flask to tie together frontend and backend
 
 ## Use Gregor
-website: gregor.github.io (??)
+website: gregorcal.tech
