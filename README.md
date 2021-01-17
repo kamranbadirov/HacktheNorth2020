@@ -39,3 +39,9 @@ Frontend:
 - HTML/CSS
 - Boostrap 
 - Flask to tie together frontend and backend
+
+## How to use
+Step 1. Create a virtual environment and activate it.
+Step 2. Run on terminal: pip install -r requirements.txt
+Step 3. Run on terminal: python app.py
+Step 4. visit localhost:/5000
