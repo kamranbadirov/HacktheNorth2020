@@ -14,13 +14,13 @@ So that events are more internationally accessible and have greater attendance, 
 ## Introducing Gregor
 The majority of the world uses the Gregorian calendar, introduced in the 1500s. This format is ubiquitous and understandable to everyone - the way we share events should be, too. Gregor is a tool that makes this possible, bringing the old technology of the calendar into the modern world.
 
-Gregor requires input of an image (a poster or infographic) and timezone (of the user, and of the poster), so that the event is customized to you, helping you stay organized and in touch, wherever in the world you are. From this input, it automatically generates a calendar event that you can add to your Google Calendar.
+Gregor requires input of an image (a poster or infographic) and timezone (of the user, and of the poster), so that the event is customized to you, helping you stay organized and in touch, wherever in the world you are. From this input, it automatically generates a calendar event that is added to your Google Calendar.
 
-Gregor's backend comprises two main parts: a machine learning algorithm that uses Microsoft's Azure API to recognize and interpret text corresponding to calendar events, and a integrated framework that uses the data found in the image to create a new event in your calendar using the Google Calendar API.
+Gregor's backend comprises of two main parts: a machine learning algorithm that uses Microsoft's Azure API to recognize and interpret text corresponding to calendar events, and a integrated framework that uses the data found in the image to create a new event in your calendar using the Google Calendar API.
 
 ## Challenges we ran into
 - We had difficulty figuring out how to have the user locally upload an image into Azure so that we could analyze it with our algorithm. This was solved by putting our heads together as a team, and asking for help - we spoke with multiple Microsoft representatives, who helped significantly to finding a suitable workaround.
-- Integrating the Framer UI design with the front end proved to be more difficult than we anticipated. Although we originally planned on using React and importing Framer designs directly, we ended up using Framer only as a prototyping tool and as inspiration for the website. Final coding was done in HTML/CSS/JS using graphic softwares to create artwork and tools from Bootstrap.
+- Integrating the Framer UI design with the front end proved to be more difficult than we anticipated. Although we originally planned on using React and importing Framer designs directly, we ended up using Framer only as a prototyping tool and as inspiration for the website. Final coding was done in HTML/CSS using graphic softwares to create artwork and tools from Bootstrap. The Flask framework in python was used to combine the front-end and back-end.
 
 ## What's next for Gregor
 - Integrating with a browser extension so that Gregor can create calendar invites directly from your social media app.
@@ -32,12 +32,12 @@ Gregor's backend comprises two main parts: a machine learning algorithm that use
 Backend:
 - Microsoft Azure API
 - Google Calendar API
-- Python
+- Python(Flask Framework)
 
 Frontend:
 - Framer UI design
-- HTML/CSS/JS
-- Boostrap and JQuery 
+- HTML/CSS
+- Boostrap 
 - Flask to tie together frontend and backend
 
 ## Use Gregor
