@@ -102,7 +102,10 @@ def master(event_title, curr_timezone, req_timezone, start_date, end_time, end_d
         end_date)
 
     timezone = 'GMT'
-    req_timezone = timezone + req_timezone
+    if '-' not in req_timezone:
+        req_timezone = '+' + req_timezone
+    else:
+        req_timezone = timezone + req_timezone
 
     event = createEvent(event_title=event_title,
                         timezone=req_timezone,
