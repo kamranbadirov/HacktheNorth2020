@@ -39,6 +39,3 @@ Frontend:
 - HTML/CSS
 - Boostrap 
 - Flask to tie together frontend and backend
-
-## Use Gregor
-website: gregorcal.tech
