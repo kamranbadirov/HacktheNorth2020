@@ -41,6 +41,6 @@ Frontend:
 - Flask to tie together frontend and backend
 
 ## How to use
--Step 1. Create a virtual environment and activate it.
--Step 2. Run on terminal: pip install -r requirements.txt
--Step 4. visit localhost:/5000
+Step 1. Create a virtual environment and activate it.
+Step 2. Run on terminal: pip install -r requirements.txt
+Step 4. visit localhost:/5000
