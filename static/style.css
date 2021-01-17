@@ -7,7 +7,7 @@ body{
   background: whitesmoke;
   color: hex(#3C3744);
   transition: all 300ms ease;
-  background-image: url("img/rhstriangles.svg"), url("img/bottri.svg"), url("img/toptri.svg");
+  background-image: url("rhstriangles.svg"), url("bottri.svg"), url("toptri.svg");
   background-repeat: repeat-y, no-repeat, no-repeat;
   background-size: 25%, 20%, 32%;
   background-position: right top, bottom left, top left; 
@@ -21,7 +21,7 @@ div{
 #titleimg{
   width: 60%
 }
-
+.center{margin:auto;}
 /* #tzdropdown2{
   padding: 0%;
 } */
