@@ -1,4 +1,4 @@
-# Gregor - HacktheNorth2020
+# Gregor - HackTheNorth2020
 
 This is Gregor, built for Hack the North 2020++
 
